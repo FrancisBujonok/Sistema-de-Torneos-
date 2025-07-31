@@ -1,0 +1,6 @@
+C:\Users\Fran\Documents\GitHub\Sistema-de-Torneos-\Class\bin\Debug\Class.dll
+C:\Users\Fran\Documents\GitHub\Sistema-de-Torneos-\Class\bin\Debug\Class.pdb
+C:\Users\Fran\Documents\GitHub\Sistema-de-Torneos-\Class\obj\Debug\Class.csproj.AssemblyReference.cache
+C:\Users\Fran\Documents\GitHub\Sistema-de-Torneos-\Class\obj\Debug\Class.csproj.CoreCompileInputs.cache
+C:\Users\Fran\Documents\GitHub\Sistema-de-Torneos-\Class\obj\Debug\Class.dll
+C:\Users\Fran\Documents\GitHub\Sistema-de-Torneos-\Class\obj\Debug\Class.pdb

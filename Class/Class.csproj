@@ -46,11 +46,5 @@
     <Compile Include="Equipo.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
-  <ItemGroup>
-    <ProjectReference Include="..\Sistema_Torneos\Sistema_Torneos.csproj">
-      <Project>{8996ef26-a881-4e89-965b-ce5b05002ca3}</Project>
-      <Name>Sistema_Torneos</Name>
-    </ProjectReference>
-  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

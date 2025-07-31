@@ -1,0 +1,10 @@
+C:\Users\Fran\Documents\GitHub\Sistema-de-Torneos-\Sistema_Torneos\bin\Debug\Sistema_Torneos.exe.config
+C:\Users\Fran\Documents\GitHub\Sistema-de-Torneos-\Sistema_Torneos\bin\Debug\Sistema_Torneos.exe
+C:\Users\Fran\Documents\GitHub\Sistema-de-Torneos-\Sistema_Torneos\bin\Debug\Sistema_Torneos.pdb
+C:\Users\Fran\Documents\GitHub\Sistema-de-Torneos-\Sistema_Torneos\obj\Debug\Sistema_Torneos.csproj.AssemblyReference.cache
+C:\Users\Fran\Documents\GitHub\Sistema-de-Torneos-\Sistema_Torneos\obj\Debug\Sistema_Torneos.csproj.CoreCompileInputs.cache
+C:\Users\Fran\Documents\GitHub\Sistema-de-Torneos-\Sistema_Torneos\obj\Debug\Sistema_Torneos.exe
+C:\Users\Fran\Documents\GitHub\Sistema-de-Torneos-\Sistema_Torneos\obj\Debug\Sistema_Torneos.pdb
+C:\Users\Fran\Documents\GitHub\Sistema-de-Torneos-\Sistema_Torneos\bin\Debug\Class.dll
+C:\Users\Fran\Documents\GitHub\Sistema-de-Torneos-\Sistema_Torneos\bin\Debug\Class.pdb
+C:\Users\Fran\Documents\GitHub\Sistema-de-Torneos-\Sistema_Torneos\obj\Debug\Sistema_.BEDCECA4.Up2Date

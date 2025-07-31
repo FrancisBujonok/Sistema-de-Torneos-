@@ -1,22 +1,22 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\Fran\\source\\repos\\Sistema_Torneos\\",
+  "WorkspaceRootPath": "C:\\Users\\Fran\\Documents\\GitHub\\Sistema-de-Torneos-\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{8996EF26-A881-4E89-965B-CE5B05002CA3}|Sistema_Torneos\\Sistema_Torneos.csproj|c:\\users\\fran\\source\\repos\\sistema_torneos\\sistema_torneos\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{8996EF26-A881-4E89-965B-CE5B05002CA3}|Sistema_Torneos\\Sistema_Torneos.csproj|c:\\users\\fran\\documents\\github\\sistema-de-torneos-\\sistema_torneos\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{8996EF26-A881-4E89-965B-CE5B05002CA3}|Sistema_Torneos\\Sistema_Torneos.csproj|solutionrelative:sistema_torneos\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{FA5AA9D3-CCB7-4C0F-9D8A-11D7D85ABC86}|Class\\Class.csproj|c:\\users\\fran\\source\\repos\\sistema_torneos\\class\\gestortorneo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{FA5AA9D3-CCB7-4C0F-9D8A-11D7D85ABC86}|Class\\Class.csproj|C:\\Users\\Fran\\Documents\\GitHub\\Sistema-de-Torneos-\\class\\equipo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FA5AA9D3-CCB7-4C0F-9D8A-11D7D85ABC86}|Class\\Class.csproj|solutionrelative:class\\equipo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FA5AA9D3-CCB7-4C0F-9D8A-11D7D85ABC86}|Class\\Class.csproj|C:\\Users\\Fran\\Documents\\GitHub\\Sistema-de-Torneos-\\class\\gestortorneo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{FA5AA9D3-CCB7-4C0F-9D8A-11D7D85ABC86}|Class\\Class.csproj|solutionrelative:class\\gestortorneo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{FA5AA9D3-CCB7-4C0F-9D8A-11D7D85ABC86}|Class\\Class.csproj|c:\\users\\fran\\source\\repos\\sistema_torneos\\class\\partido.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{FA5AA9D3-CCB7-4C0F-9D8A-11D7D85ABC86}|Class\\Class.csproj|C:\\Users\\Fran\\Documents\\GitHub\\Sistema-de-Torneos-\\class\\partido.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{FA5AA9D3-CCB7-4C0F-9D8A-11D7D85ABC86}|Class\\Class.csproj|solutionrelative:class\\partido.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{FA5AA9D3-CCB7-4C0F-9D8A-11D7D85ABC86}|Class\\Class.csproj|c:\\users\\fran\\source\\repos\\sistema_torneos\\class\\equipo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{FA5AA9D3-CCB7-4C0F-9D8A-11D7D85ABC86}|Class\\Class.csproj|solutionrelative:class\\equipo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -30,39 +30,39 @@
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "GestorTorneo.cs",
-              "DocumentMoniker": "C:\\Users\\Fran\\source\\repos\\Sistema_Torneos\\Class\\GestorTorneo.cs",
+              "DocumentMoniker": "C:\\Users\\Fran\\Documents\\GitHub\\Sistema-de-Torneos-\\Class\\GestorTorneo.cs",
               "RelativeDocumentMoniker": "Class\\GestorTorneo.cs",
-              "ToolTip": "C:\\Users\\Fran\\source\\repos\\Sistema_Torneos\\Class\\GestorTorneo.cs",
+              "ToolTip": "C:\\Users\\Fran\\Documents\\GitHub\\Sistema-de-Torneos-\\Class\\GestorTorneo.cs",
               "RelativeToolTip": "Class\\GestorTorneo.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAcwAYAAAAWAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-07-30T20:33:41.296Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 3,
               "Title": "Partido.cs",
-              "DocumentMoniker": "C:\\Users\\Fran\\source\\repos\\Sistema_Torneos\\Class\\Partido.cs",
+              "DocumentMoniker": "C:\\Users\\Fran\\Documents\\GitHub\\Sistema-de-Torneos-\\Class\\Partido.cs",
               "RelativeDocumentMoniker": "Class\\Partido.cs",
-              "ToolTip": "C:\\Users\\Fran\\source\\repos\\Sistema_Torneos\\Class\\Partido.cs",
+              "ToolTip": "C:\\Users\\Fran\\Documents\\GitHub\\Sistema-de-Torneos-\\Class\\Partido.cs",
               "RelativeToolTip": "Class\\Partido.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAvAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAWAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-07-30T19:43:34.759Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 1,
               "Title": "Equipo.cs",
-              "DocumentMoniker": "C:\\Users\\Fran\\source\\repos\\Sistema_Torneos\\Class\\Equipo.cs",
+              "DocumentMoniker": "C:\\Users\\Fran\\Documents\\GitHub\\Sistema-de-Torneos-\\Class\\Equipo.cs",
               "RelativeDocumentMoniker": "Class\\Equipo.cs",
-              "ToolTip": "C:\\Users\\Fran\\source\\repos\\Sistema_Torneos\\Class\\Equipo.cs",
+              "ToolTip": "C:\\Users\\Fran\\Documents\\GitHub\\Sistema-de-Torneos-\\Class\\Equipo.cs",
               "RelativeToolTip": "Class\\Equipo.cs",
-              "ViewState": "AgIAAAsAAAAAAAAAAAAcwBYAAAAvAAAAAAAAAA==",
+              "ViewState": "AgIAAAsAAAAAAAAAAAAQwAUAAAAWAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-07-30T19:16:35.306Z",
               "EditorCaption": ""
@@ -71,11 +71,11 @@
               "$type": "Document",
               "DocumentIndex": 0,
               "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\Fran\\source\\repos\\Sistema_Torneos\\Sistema_Torneos\\Program.cs",
+              "DocumentMoniker": "C:\\Users\\Fran\\Documents\\GitHub\\Sistema-de-Torneos-\\Sistema_Torneos\\Program.cs",
               "RelativeDocumentMoniker": "Sistema_Torneos\\Program.cs",
-              "ToolTip": "C:\\Users\\Fran\\source\\repos\\Sistema_Torneos\\Sistema_Torneos\\Program.cs",
+              "ToolTip": "C:\\Users\\Fran\\Documents\\GitHub\\Sistema-de-Torneos-\\Sistema_Torneos\\Program.cs",
               "RelativeToolTip": "Sistema_Torneos\\Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAABEAAAAvAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-07-30T18:56:32.291Z",
               "EditorCaption": ""
