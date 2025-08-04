@@ -15,13 +15,13 @@ namespace Sistema_Torneos
         public int GolesEnContra { get; set; } // Changed type from string to int  
         public string Ciudad { get; set; }
 
-        public Equipo(string nombre, int puntos, int golesafavor, int golesencontra, string ciudad)
+        public Equipo(string nombre, string ciudad)
         {
             this.Nombre = nombre;
             this.Ciudad = ciudad;
-            this.Puntos = puntos;
-            this.GolesAFavor = golesafavor;
-            this.GolesEnContra = golesencontra;
+            this.Puntos = 0;
+            this.GolesAFavor = 0;
+            this.GolesEnContra = 0;
         }
     }
 }
