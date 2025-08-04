@@ -50,11 +50,13 @@ namespace Sistema_Torneos
                 }
                 else if (opcion == "3")
                 {
-                    Console.WriteLine("Aquí se mostrará la tabla de posiciones.");
+                    Console.WriteLine("- TABLA DE POSICIONES.");
+                    miTorneo.VerTablaPosiciones();
                 }
                 else if (opcion == "4")
                 {
-                    Console.WriteLine("Aquí se mostrará el historial de partidos.");
+                    Console.WriteLine("- HISTORIAL DE PARTIDOS.");
+                    miTorneo.VerHistorialPartidos();
                 }
                 else if (opcion == "5")
                 {

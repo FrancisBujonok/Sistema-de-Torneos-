@@ -12,7 +12,7 @@ namespace Sistema_Torneos
         public string Nombre { get; set; }
         public int Puntos { get; set; }
         public int GolesAFavor { get; set; }
-        public int GolesEnContra { get; set; } // Changed type from string to int  
+        public int GolesEnContra { get; set; } 
         public string Ciudad { get; set; }
 
         public Equipo(string nombre, string ciudad)
