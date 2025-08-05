@@ -13,9 +13,11 @@ namespace Sistema_Torneos
         {
             GestorTorneo miTorneo = new GestorTorneo();
 
-            while (true)
+            bool continuar = true;
+            while (continuar)
             {
-                Console.WriteLine("--- SISTEMA DE GESTIÓN DE TORNEOS ---");
+                Console.Clear();
+                Console.WriteLine("--- SISTEMA DE GESTIÓN DE TORNEOS ---\n");
                 Console.WriteLine("- DEPORTE TOTAL - ");
                 Console.WriteLine("1. Registrar nuevo equipo");
                 Console.WriteLine("2. Jugar partido");
@@ -50,17 +52,18 @@ namespace Sistema_Torneos
                 }
                 else if (opcion == "3")
                 {
-                    Console.WriteLine("- TABLA DE POSICIONES.");
+                    Console.WriteLine("- TABLA DE POSICIONES.\n");
                     miTorneo.VerTablaPosiciones();
                 }
                 else if (opcion == "4")
                 {
-                    Console.WriteLine("- HISTORIAL DE PARTIDOS.");
+                    Console.WriteLine("- HISTORIAL DE PARTIDOS.\n");
                     miTorneo.VerHistorialPartidos();
                 }
                 else if (opcion == "5")
                 {
                     Console.WriteLine("¡Nos vemos!");
+                    continuar = false;
                 }
                 else
                 {

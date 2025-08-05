@@ -19,14 +19,63 @@ namespace Sistema_Torneos
             this.equipo = new List<Equipo>();
             this.partido = new List<Partido>();
         }
-        public void RegistrarEquipo (string nombre, string ciudad) 
-            {
+        public void RegistrarEquipo(string nombre, string ciudad)
+        {
             Equipo nuevoEquipo = new Equipo(nombre, ciudad);
             this.equipo.Add(nuevoEquipo);
             Console.WriteLine($"El equipo '{nombre}' de '{ciudad}' ha sido registrado con éxito.");
+            Console.WriteLine("\nPresione cualquier tecla para continuar...");
             Console.ReadKey();
         }
-        public void JugarPartido(string EquipoLocal, string EquipoVisitante, int GolesLocal, int GolesVisitante) { }
+        public void JugarPartido(string nombreLocal, string nombreVisitante, int golesLocal, int golesVisitante)
+        {
+   
+            Equipo equipoLocal = this.equipo.FirstOrDefault(e => e.Nombre == nombreLocal);
+            Equipo equipoVisitante = this.equipo.FirstOrDefault(e => e.Nombre == nombreVisitante);
+            if (equipoLocal == null)
+            {
+                Console.WriteLine($"Error: El equipo '{nombreLocal}' no está registrado.");
+                Console.WriteLine("\nPresione cualquier tecla para continuar...");
+                Console.ReadKey();
+                return; 
+            }
+
+            if (equipoVisitante == null)
+            {
+                Console.WriteLine($"Error: El equipo '{nombreVisitante}' no está registrado.");
+                Console.WriteLine("\nPresione cualquier tecla para continuar...");
+                Console.ReadKey();
+                return;
+            }
+            Partido nuevoPartido = new Partido(equipoLocal, equipoVisitante, golesLocal, golesVisitante);
+            this.partido.Add(nuevoPartido);
+
+            equipoLocal.GolesAFavor += golesLocal;
+            equipoLocal.GolesEnContra += golesVisitante;
+            equipoVisitante.GolesAFavor += golesVisitante;
+            equipoVisitante.GolesEnContra += golesLocal;
+
+            if (golesLocal > golesVisitante)
+            {
+                equipoLocal.Puntos += 3;
+                Console.WriteLine($"{equipoLocal.Nombre} ha ganado el partido.");
+            }
+            else if (golesVisitante > golesLocal)
+            {
+                equipoVisitante.Puntos += 3;
+                Console.WriteLine($"{equipoVisitante.Nombre} ha ganado el partido.");
+            }
+            else
+            {
+                equipoLocal.Puntos += 1;
+                equipoVisitante.Puntos += 1;
+                Console.WriteLine("El partido ha terminado en empate.");
+            }
+
+            Console.WriteLine($"Resultado: {equipoLocal.Nombre} {golesLocal} - {golesVisitante} {equipoVisitante.Nombre}");
+            Console.WriteLine("\nPresione cualquier tecla para continuar...");
+            Console.ReadKey();
+        }
         public void VerTablaPosiciones()
         {
             Console.WriteLine("--- TABLA DE POSICIONES ---");
@@ -40,6 +89,7 @@ namespace Sistema_Torneos
                 foreach (Equipo equipo in this.equipo)
                 {
                     Console.WriteLine($"Equipo: {equipo.Nombre} - Puntos: {equipo.Puntos}");
+                    Console.WriteLine("\nPresione cualquier tecla para continuar...");
                     Console.ReadKey();
                 }
             }
@@ -57,6 +107,7 @@ namespace Sistema_Torneos
                 foreach (Partido partido in this.partido)
                 {
                     Console.WriteLine($"Partido: {partido.EquipoLocal.Nombre} {partido.GolesLocal} - {partido.GolesVisitante} {partido.EquipoVisitante.Nombre}");
+                    Console.WriteLine("\nPresione cualquier tecla para continuar...");
                     Console.ReadKey();
                 }
             }
