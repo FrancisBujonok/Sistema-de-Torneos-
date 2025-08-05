@@ -26,7 +26,7 @@ namespace Sistema_Torneos
             Console.WriteLine($"El equipo '{nombre}' de '{ciudad}' ha sido registrado con éxito.");
             Console.ReadKey();
         }
-        public void JugarPartido(string EquipoLocal, string EquipoVisitante, int GolesLocal, int GolesVisitante) { }
+        public void JugarPartido(Equipo EquipoLocal, Equipo EquipoVisitante, int GolesLocal, int GolesVisitante) { }
         public void VerTablaPosiciones()
         {
             Console.WriteLine("--- TABLA DE POSICIONES ---");
