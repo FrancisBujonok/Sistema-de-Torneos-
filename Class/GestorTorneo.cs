@@ -76,6 +76,10 @@ namespace Sistema_Torneos
             Console.WriteLine("\nPresione cualquier tecla para continuar...");
             Console.ReadKey();
         }
+<<<<<<< HEAD
+=======
+        public void JugarPartido(Equipo EquipoLocal, Equipo EquipoVisitante, int GolesLocal, int GolesVisitante) { }
+>>>>>>> 19a0423ed0500f6c56914e52759b7b1114324ec2
         public void VerTablaPosiciones()
         {
             Console.WriteLine("--- TABLA DE POSICIONES ---");
